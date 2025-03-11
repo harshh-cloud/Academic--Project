@@ -1,0 +1,53 @@
+<%@ page contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1" %>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <meta charset="ISO-8859-1">
+    <title>Dashboard - AgroSeed</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</head>
+<body>
+
+    <!-- Include the Header -->
+    <jsp:include page="user/header.jsp" />
+
+    <!-- Content for the Dashboard -->
+    <div class="dashboard-content">
+        <div class="container">
+            <h2>Welcome to the AgroSeed Dashboard</h2>
+            <p>This is your dashboard where you can manage all your farming-related activities.</p>
+
+            <!-- Example content, you can add more specific content here -->
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="dashboard-box">
+                        <h3>Section 1</h3>
+                        <p>Details for section 1</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="dashboard-box">
+                        <h3>Section 2</h3>
+                        <p>Details for section 2</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="dashboard-box">
+                        <h3>Section 3</h3>
+                        <p>Details for section 3</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Include the Footer -->
+    <jsp:include page="user/footer.jsp" />
+
+</body>
+</html>
